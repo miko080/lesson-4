@@ -1,0 +1,12 @@
+%absolute {
+  position: absolute;
+  inset: 0;
+}
+
+.body {
+  @extend %absolute;
+
+  &__title {
+        @extend %absolute;
+  }
+}
